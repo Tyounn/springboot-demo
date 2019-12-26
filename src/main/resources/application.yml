@@ -1,0 +1,25 @@
+
+
+spring:
+  #JSPパス
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  # MYSQL
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://clv-eventspot-test001-dbs4dev-jp2v-dev.lineinfra-dev.com:20306/eventspot_test
+    username: eventspot
+    password: eventsp0t
+
+# Server
+server:
+  port: 8081
+  servlet:
+    context-path: /springboot
+
+#Info
+user:
+  name: backlight
+  age: 28
