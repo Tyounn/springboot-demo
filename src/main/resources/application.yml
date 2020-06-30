@@ -9,13 +9,13 @@ spring:
   # MYSQL
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://clv-eventspot-test001-dbs4dev-jp2v-dev.lineinfra-dev.com:20306/eventspot_test
-    username: eventspot
-    password: eventsp0t
+    url: jdbc:mysql://localhost:3306/spring-demo
+    username: root
+    password: root
 
 # Server
 server:
-  port: 8081
+  port: 8080
   servlet:
     context-path: /springboot
 
