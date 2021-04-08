@@ -8,3 +8,7 @@ springboot + mybatis + jsp
 
 # How to debug
 ./gradlew bootRun --debug-jvm
+
+
+
+test
